@@ -11,7 +11,7 @@
         <!--Doorway-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="DoorwayViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="DoorwayView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,7 +51,7 @@
         <!--Coat room-->
         <scene sceneID="bqL-C6-2eo">
             <objects>
-                <viewController id="WWj-Pl-LGv" sceneMemberID="viewController">
+                <viewController id="WWj-Pl-LGv" customClass="CoatRoomViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xt3-lV-V75" userLabel="CoatRoomView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,7 +113,7 @@
         <!--Library-->
         <scene sceneID="kEC-fB-n2A">
             <objects>
-                <viewController id="8Up-4g-vq5" sceneMemberID="viewController">
+                <viewController id="8Up-4g-vq5" customClass="LibraryViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vku-f9-LQH" userLabel="LibraryView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -153,7 +153,7 @@
         <!--Secret passage-->
         <scene sceneID="Y0v-4A-mSG">
             <objects>
-                <viewController id="M8B-Y2-pMO" sceneMemberID="viewController">
+                <viewController id="M8B-Y2-pMO" customClass="SecretPassageViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XvV-Oc-l4e" userLabel="SecretPassageView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -215,7 +215,7 @@
         <!--Dungeon-->
         <scene sceneID="vaB-oY-Opk">
             <objects>
-                <viewController id="s6C-Vg-ST7" sceneMemberID="viewController">
+                <viewController id="s6C-Vg-ST7" customClass="DungeonViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jJl-aU-m4M" userLabel="DungeonView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -244,7 +244,7 @@
         <!--Labratory-->
         <scene sceneID="S4a-Dz-tDK">
             <objects>
-                <viewController id="NvF-QD-axu" sceneMemberID="viewController">
+                <viewController id="NvF-QD-axu" customClass="LabratoryViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="llh-8L-oDX" userLabel="LabratoryView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -284,7 +284,7 @@
         <!--Generator-->
         <scene sceneID="BTF-gi-x8I">
             <objects>
-                <viewController id="Qpj-vb-VCU" sceneMemberID="viewController">
+                <viewController id="Qpj-vb-VCU" customClass="GeneratorViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UFy-OO-58n" userLabel="GeneratorView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -313,7 +313,7 @@
         <!--Mysterious lake-->
         <scene sceneID="ZbX-40-Nvo">
             <objects>
-                <viewController id="bYl-7N-uAN" sceneMemberID="viewController">
+                <viewController id="bYl-7N-uAN" customClass="MysteriousLakeViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GNj-aW-WpG" userLabel="MysteriousLakeView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -352,7 +352,7 @@
         <!--Cursed chalice-->
         <scene sceneID="m9S-s8-3mZ">
             <objects>
-                <viewController id="gc5-tC-pCD" sceneMemberID="viewController">
+                <viewController id="gc5-tC-pCD" customClass="CursedChaliceViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h9K-l5-JQZ" userLabel="CursedChaliceView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -381,7 +381,7 @@
         <!--Dining room-->
         <scene sceneID="E74-2B-v9q">
             <objects>
-                <viewController id="HOs-IG-TaV" sceneMemberID="viewController">
+                <viewController id="HOs-IG-TaV" customClass="DiningRoomViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q87-0U-BxO" userLabel="DiningRoomView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -422,7 +422,7 @@
         <!--Kitchen-->
         <scene sceneID="Zxa-aE-8SN">
             <objects>
-                <viewController id="pc4-ze-Mln" sceneMemberID="viewController">
+                <viewController id="pc4-ze-Mln" customClass="KitchenViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p4c-we-fQL" userLabel="KitchenView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -462,7 +462,7 @@
         <!--Back porch-->
         <scene sceneID="NsZ-m0-Aln">
             <objects>
-                <viewController id="cVy-1n-GY3" sceneMemberID="viewController">
+                <viewController id="cVy-1n-GY3" customClass="BackPorchViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5ti-UD-2rI" userLabel="BackPorchView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -491,7 +491,7 @@
         <!--Stairs up-->
         <scene sceneID="Pyv-CO-xtd">
             <objects>
-                <viewController id="cec-hO-FsD" sceneMemberID="viewController">
+                <viewController id="cec-hO-FsD" customClass="StairsUpViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dSJ-Lb-NyD" userLabel="StairsUpView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -542,7 +542,7 @@
         <!--Bed room-->
         <scene sceneID="zdu-fZ-DGT">
             <objects>
-                <viewController id="WKn-vt-kC7" sceneMemberID="viewController">
+                <viewController id="WKn-vt-kC7" customClass="BedRoomViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HOV-2b-sV4" userLabel="BedRoomView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -571,7 +571,7 @@
         <!--Bath room-->
         <scene sceneID="sHf-th-Jll">
             <objects>
-                <viewController id="8jX-HF-r7S" sceneMemberID="viewController">
+                <viewController id="8jX-HF-r7S" customClass="BathRoomViewController" customModule="StoriesNavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2aE-Lr-vCT" userLabel="BathRoomView">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
